@@ -22,3 +22,5 @@ class Product{
         return price;
     }
 }
+
+//usage of getter and setter methods
