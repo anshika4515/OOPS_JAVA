@@ -1,0 +1,10 @@
+-> Final is the non modify accessor in java that can be used in three ways
+-> same as const , used to fix the value
+-> Use in three case
+1. Variables
+2. Method
+3. Class
+
+// Final Data -> cant be reassigned
+// Final Method -> cant be overided 
+// Final Class -> cant be inherited

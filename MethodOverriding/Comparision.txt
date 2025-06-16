@@ -1,0 +1,12 @@
+Method OverLoading                         Method OverRiding
+-> OverLoading can be done  between        -> OverRiding can be only been done between between
+the same or method of different parent       parent and child class, always on inheritance
+child class
+
+-> OverLoading says method have same name   -> OverRiding says whole prototype of the function must be
+bu different return or arguments               same. Athough always co-variant return types.
+
+
+
+// What are co-variant return types?
+-> The type if the method return type in my parent class must be the parent or child of method return in my child class
