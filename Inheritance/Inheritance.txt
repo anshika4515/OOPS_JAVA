@@ -1,0 +1,27 @@
+//Inheritance -> Inheritance is a tchnique using which we can acquire the feature of an
+// existing class/object in a newly created class / object. 
+
+//Benifits of inheritance
+// -> Reusability
+// -> Maintainabitlity
+
+
+//Terminologies used in inheritance
+// Parent - Super - Base class -> OOPS ->the class which is being inherited.
+//Child - Derived - Sub class -> this class which inherits
+
+//Types of Inheritance
+-> Single
+-> Multilevel
+-> Multiple
+-> Hierarchical
+-> Hybrid
+
+-> Java doesnt support Hybrid and Multiple Inheritance
+ 
+1. Single Inheritance -> One class extends another class (one class only)
+2. Multiple Inheritance -> Where one class extends more than one class. (two parent class single child class)
+3. Multilevel Inheritance -> One class can inherit from a derived class. Hence, the derived class
+becomes the base class for the new class
+4. Hierarchical Inheritance -> one class is inherited by many sub classes.
+4. Hybrid Inheritance -> which is a combination of single and Multiple inheritance.
