@@ -1,0 +1,21 @@
+Interface -> An interface is almost same as a pure abstract class.
+-> Just like a class or abstract class an interface also contain data members.
+
+->Every data declared in an interface is automatically converted through to "public" , 
+"static" , "final" by java. 
+
+-> An interface can also contains methods but every method by default is public and abstract
+
+-> From java 8, an interface can also contain "default" and "static" methods.
+
+-> Just like how we can not make objects of abstract class, similarly we cant make objects for interface.
+-> We can create a reference of an interface.
+-> Just like an abstract class an interface also can be inherited by child classes but the keyword
+used in here is not extends it is implements.
+
+-> The reference of an interface can point to the object of its implementation class or child class.
+-> And this forms the basis of runtime polymorphism.
+
+->If a class inherits an interface then it ia compulsory to ovverride every abstract
+method inherited from the interface. otherwise the derived class will also be declared as abstarct.
+

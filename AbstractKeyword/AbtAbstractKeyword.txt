@@ -1,0 +1,34 @@
+-> We have write a code in runtime polymorphism where we are providing method
+without the body that is a bad practise.
+
+-> We can do it by removing the body of the method and just desclaring it in 
+the class language
+
+-> To do this we must prefix the method as well as the class with
+abstract keyword.
+
+//use abstract in method -> to avoid giving body
+abstract class language{
+    abstract public void greet();
+}
+
+-> abstract method can only be used in 
+1.abstract classes
+2.Interface 
+
+-> if method is abstract class also must be abstarct
+
+
+**** -> If a class is abstract then we are not allowed to create its object
+-> although we can create reference of the class.
+
+->An abstarct class can contain concreate methods as well as Constructors.
+-> We can inherit abstract class and these abstract methods can be inherit by object of child classes.
+
+
+What if we want to inherit the abstarct class in child class?
+-> Either it must compulsorily ovverride all the abstarct methods 
+inherit from the super class.
+
+
+-> We cant use abstract in  -> final , static , Constructors , private

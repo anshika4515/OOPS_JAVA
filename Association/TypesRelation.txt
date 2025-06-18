@@ -1,0 +1,38 @@
+-> Types of Relationships are
+-> Inheritance (IS-A)
+-> Association (HAS-A)
+
+Association -> can be considered a generic term to indicate the relationship between two independent classes; the relationship.
+A HAS-A relationship signifies that a class is associated with that is it holds object(s)
+of another class in its body.
+
+//apni body ke andr dusri class ke object ko create kari hai
+Example -> Car has Engine
+ -> College has students
+-> House has rooms
+
+
+-> Jis class mai main function hoga voh jis class ko callkaregi us class mai bhi objects honge
+
+
+Tyes of Association ->
+1. Aggregation
+2. Compostion
+
+1.Aggregation -> Aggregation is often represented  using a "has-a" relationship.
+2. E.g. -> Car object "has-a" music player object.
+-> Computer "has-a" hard drive object 
+
+-> Both are independent of their parent class.
+
+3. In aggregation component object can exist independently of the
+container object
+
+
+1.Compostion -> Compostion in java between two objects associated with each
+other when there is a strong relationship between one class and another.
+2.This means contained object cannot exist without the owner or container object.
+3.E.g -> A College is a Compostion of Department.If the College does nt exist Department object will
+also not exist.
+4. Composition is a restricted form of Aggregation.
+5. We can use the final keyword in Composition.
