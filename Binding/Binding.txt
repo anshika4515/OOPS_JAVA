@@ -1,0 +1,15 @@
+Early Binding -> or compile time binding or static binding
+Late Binding -> or runtime binding or dynamic binding 
+
+-> EarlyBinding -> If the method being called is a static method, then java selects the method
+by looking at the class of the reference used in the call and not the type of object to which 
+reference is pointing
+
+-> see in exmpe of EarlyBinding it will be clear
+
+
+-> Late Binding -> If the method being called is a non-static method
+i.e instance method, then java selects the method by considering and type of object,
+pointed by the reference and not considering the type of reference itself.
+
+-> will see the object not refrence.

@@ -1,0 +1,28 @@
+// Types of Polymorphism
+// 1. Compile Time Polymorphism
+// 2. Run Time Polymorphism
+
+
+//Polymorphism -> Poly -> Multiple -> Morph -> forms
+-> Polymorphism is ability to acquire multiple forms 
+
+Compile Time Polymorphism 
+-> Also known as static Polymorphism.
+-> To achieve compile time Polymorphism one must have 
+different implementations of same method in a class.
+-> Done using Method Overloading.
+
+
+RunTime Polymorphism
+-> also known as Dynamic Polymorphism
+-> To achieve RunTime Polymorphism in java we must be able to call different versions of the
+same method using the same reference variables.
+-> These methods must be present in child class and the reference must of parent class
+
+// static method ke liye java reference dehkti hai
+// non static methd ke liye java object dekhti hai
+
+
+// when static method is redefined frm parent to child it is called Mehod Hiding
+// when non static methd is redefined from parent to child it is called as Method Overriding.
+
